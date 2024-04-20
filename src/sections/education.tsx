@@ -11,11 +11,11 @@ export const Education: FC = () => (
       {`National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute"`}
     </h4>
     <h4>
-      Automation and computer-integrated technologies |{" "}
+      Master in Software Engineering |{" "}
       <span className={s.place}>Master</span>{" "}
     </h4>
     <p className="paragraphs_style">
-      September 2013 - December 2018 | Ukraine, Kyiv
+      September 2013 - December 2019 | Ukraine, Kyiv
     </p>
   </ContentBlock>
 );

@@ -6,8 +6,8 @@ import { ListItem } from "../components/list-item";
 
 const data = [
   "Ukrainian - Native",
-  "Russian - Fluent",
-  "English - Upper-Intermediate",
+  "Japanese - Basic (N5/N4)",
+  "English - Advanced",
 ];
 
 export const Languages: FC = () => (

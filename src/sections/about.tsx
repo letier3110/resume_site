@@ -4,14 +4,10 @@ import { ContentBlock } from "../components/content-block";
 
 export const About: FC = () => (
   <ContentBlock>
-    <h2>Junior DevOps</h2>
-    <h1>Vitalii Kondrenko</h1>
+    <h2>Web Developer</h2>
+    <h1>Anton Chaika</h1>
     <p>
-      {`For a short period of my life, I've managed to try myself in several major
-      areas of IT and, I think, have finally found a direction that appealed to
-      me, and understood how to move on to achieve what I want. My current goal
-      is to find position where I can work with DevOps methodics and instruments
-      to upgrade my theoretical and practical knowledges within the area.`}
+      {`Dedicated and experienced Front-end developer with over four years of experience working in IT. An extremely focused and detail-oriented technician who is capable of accurately analyzing, diagnosing, and implementing a variety of features using modern frameworks and libraries. A strong communicator, able to address all client questions and concerns.`}
     </p>
   </ContentBlock>
 );

@@ -5,12 +5,9 @@ import s from "../App.module.css";
 import { ListItem } from "../components/list-item";
 
 const data = [
-  "Gaming",
-  "Cooking",
-  "Reading",
-  "Learning new technologies for current goal",
-  "Watching movies and series",
-  "Swimming",
+  "Hiking / Volleyball / Cycling",
+  "Learning new spoken languages",
+  "Gamedev",
 ];
 
 export const Hobbies: FC = () => (

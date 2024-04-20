@@ -6,17 +6,19 @@ import { ProjectItemProps } from "./projects.interface";
 export const ProjectItem: FC<ProjectItemProps & { index: number }> = ({
   index,
   name,
+  description,
   link,
   technologies,
   source,
 }) => (
-  <li>
+  <div>
     {index}.
     <a target="_blank" rel="noopener noreferrer" href={link}>
       {name}
     </a>
-    ........
-    <Brackets>
+    <p>{description}</p>
+    <br />
+    Technologies: <Brackets>
       {technologies.map((x) => (
         <span key={x}>{x}</span>
       ))}
@@ -28,5 +30,5 @@ export const ProjectItem: FC<ProjectItemProps & { index: number }> = ({
         </a>
       </Brackets>
     )}
-  </li>
+  </div>
 );

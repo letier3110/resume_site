@@ -5,14 +5,24 @@ import s from "../App.module.css";
 import { ListItem } from "../components/list-item";
 
 const data = [
-  "Linux administration",
-  "Windows administration",
-  "Network administration",
-  "Git",
-  "Virtualization",
+  "Nodejs",
+  "HTML / JSX",
+  "SCSS / CSS / BEM / Styled Components",
+  "Infura",
+  "GraphQL",
+  "Postgres",
+  "Knexjs",
   "Docker",
-  "AWS",
-  "K8s",
+  "Javascript / Typescript",
+  "React / Next",
+  "Redux / Apollo / RxJS",
+  "Electron",
+  "WebRTC",
+  "Cypress / Puppet",
+  "Browser Extension",
+  "React Native",
+  "Astro",
+  "Rust / Axum"
 ];
 
 export const TechSkills: FC = () => (

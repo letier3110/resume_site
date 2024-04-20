@@ -8,25 +8,14 @@ export const Contacts: FC = () => (
     <h3>Contacts</h3>
     <div>
       <p>
-        <strong>C: </strong>
-        <a
-          target={"_blank"}
-          className={s.link}
-          rel="noreferrer noopener"
-          href="tel:+380983694370"
-        >
-          +380983694370
-        </a>
-      </p>
-      <p>
         <strong>E: </strong>
         <a
           target={"_blank"}
           className={s.link}
           rel="noreferrer noopener"
-          href="mailto:vitaliy.kondrenko@gmail.com"
+          href="mailto:letier3110@gmail.com"
         >
-          vitaliy.kondrenko@gmail.com
+          letier3110@gmail.com
         </a>
       </p>
       <p>
@@ -35,7 +24,7 @@ export const Contacts: FC = () => (
           target={"_blank"}
           className={s.link}
           rel="noreferrer noopener"
-          href="https://www.linkedin.com/in/vitalii-kondrenko-436047181/"
+          href="https://www.linkedin.com/in/toxcik-979ab6ab/"
         >
           LinkedIn,
         </a>
@@ -43,9 +32,9 @@ export const Contacts: FC = () => (
           target={"_blank"}
           className={s.link}
           rel="noreferrer noopener"
-          href="https://t.me/True_Teemo"
+          href="https://github.com/letier3110"
         >
-          Telegram
+          Github
         </a>
       </p>
     </div>

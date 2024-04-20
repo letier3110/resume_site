@@ -8,10 +8,11 @@ export const Projects: FC = () => (
   <ContentBlock>
     <h3>Projects</h3>
     <ol>
-      {PROJECTS_DATA.map(({ name, technologies, source, link }, index) => (
+      {PROJECTS_DATA.map(({ name, description, technologies, source, link }, index) => (
         <ProjectItem
           index={index + 1}
           key={name}
+          description={description}
           name={name}
           technologies={technologies}
           link={link}
